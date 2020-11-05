@@ -16,11 +16,14 @@ namespace ConsoleAppHolaMundo
 
             //imprimir la suma de 2 numeros
             Console.WriteLine("La suma de 10 + 20:{0} ", (10 + 20));
-            Console.ReadKey();
+            
 
             //Welcome
             Console.WriteLine("Bienvenido");
             Console.WriteLine("2-semestre");
+
+            //End-class
+            Console.WriteLine("class finish");
             Console.ReadKey();
         }
     }
