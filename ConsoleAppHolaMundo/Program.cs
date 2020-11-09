@@ -24,19 +24,7 @@ namespace ConsoleAppHolaMundo
 
             //End-class
             Console.WriteLine("class finish");
-
-            Console.WriteLine("Probando la fuction");
-            int suma = funcionSuma(19, 20);
-            Console.WriteLine("Resultado funcion={0}", suma);
-
             Console.ReadKey();
-        
-        }
-        
-        //fuction suma
-        public static int funcionSuma(int a, int b)
-        {
-            return (a * 10 + b * 100);
         }
     }
 }
