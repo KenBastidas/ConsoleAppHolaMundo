@@ -24,7 +24,14 @@ namespace ConsoleAppHolaMundo
 
             //End-class
             Console.WriteLine("class finish");
+
+            Console.WriteLine("LA suma de 10 + 20 {0}", funcionSuma(10, 20));
+                       
             Console.ReadKey();
+        }
+        public static int funcionSuma(int a, int b)
+        {
+            return (a+b);
         }
     }
 }
